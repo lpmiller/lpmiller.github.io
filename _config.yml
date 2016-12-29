@@ -1,0 +1,21 @@
+# Site settings
+title: From Rags to Rubies
+header-img: img/home-bg.png
+email: junklpm@gmail.com
+copyright_name: lpmiller
+description: > # this means to ignore newlines until "baseurl:"
+  Lance goes from Rags to Rubies
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  lpmiller
+learn_profile: lpmiller
+email_username: junklpm@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
